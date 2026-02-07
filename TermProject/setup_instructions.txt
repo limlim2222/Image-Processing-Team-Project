@@ -1,0 +1,24 @@
+Project Setup
+* The libraries required are listed in the requirements.txt file
+* These can be instaled by executing the command below
+    python3 -m pip install -r requirements.txt
+
+
+Parking space detection
+
+* To detect parking spaces.py
+    python3 parkingspace_detection.py
+
+  Paths to the background image can be editted at the bottom of the "detectparkingspaces.py" file
+  The detect parking spaces generates a csv file in the data folder that can be used in the empty parking space recognition
+
+
+Empty Parking space recognition
+
+*To recognise empty packing spots, execute the command below
+    python3 cars_emptyspace_detection.py
+
+
+
+Notes
+-  Test results are available in the result folder
