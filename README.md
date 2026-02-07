@@ -71,5 +71,6 @@
 
 ## 팀 정보
 
-* Mpabulungi Mark (Computer Vision and Augmented Reality Lab)
 * 여하림 (Virtual Embodiment Lab)
+* Mpabulungi Mark (Computer Vision and Augmented Reality Lab)
+
