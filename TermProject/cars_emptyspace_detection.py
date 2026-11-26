@@ -115,7 +115,7 @@ for i in range(n):
         result= compute_intersect_area(a, b)
         #result= compute_intersect_area(bboxes[i] , stats[j])
 
-        if result > 0:
+        if result >= 0.8:
             cv2.rectangle(image, (int(bboxes[i][0]), int(bboxes[i][1])),(int(bboxes[i][0]+bboxes[i][2]), int(bboxes[i][1]+bboxes[i][3])), (255, 255, 255),5)
             #break
         else:
